@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
+import {Home} from './components/home';
+import {Swiper} from './components/swiper';
+import {Profile} from './components/profile';
+import {Message} from './components/message';
 
 function App() {
   return (
