@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="swiper" element={<Swiper />} />
-        <Route path="profile" element={<Profile />} />
+        <Route path="profiles/:profile" element={<Profile />} />
         <Route path="message" element={<Message />} />
       </Routes>
     </div>
