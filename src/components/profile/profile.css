@@ -16,10 +16,15 @@
   width: 48px;
   height: 48px;
   border-radius: 24px;
-  background-color: green;
+  background-color: #77E287;
   position: absolute;
   top: -28px;
   right: 24px;
+}
+
+.downArrow svg {
+  margin-left: 15px;
+  margin-top: 11px;
 }
 
 .nameAndAge {
